@@ -51,3 +51,24 @@ Because compiling to IL allows the same application to run on different platform
 ### Why is C# called a managed language?
 
 Because it executes under the CLR, which manages memory, garbage collection, exception handling, and other runtime services.
+
+# Solution (.sln)
+
+## Definition
+
+A Solution is a container that organizes one or more .NET projects into a single workspace.
+
+## Why do we use it?
+
+- Organize related projects
+- Manage dependencies
+- Build multiple projects together
+- Easier collaboration
+
+## Interview Question
+
+Q. What is the difference between a Solution and a Project?
+
+Answer:
+
+A Solution is a container for multiple projects, whereas a Project is the actual application or library containing source code.
